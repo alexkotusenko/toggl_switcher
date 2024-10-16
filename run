@@ -1,0 +1,4 @@
+#!/bin/bash
+
+USERINPUT=$(wofi --dmenu)
+python3 main.py "$USERINPUT"

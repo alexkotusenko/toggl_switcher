@@ -1,0 +1,4 @@
+notify-send
+toggl (see python API at https://pypi.org/project/python-toggl/)
+python
+bash (in /bin/bash - see shebangs in each of the executables)
