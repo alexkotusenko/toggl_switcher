@@ -1,4 +1,7 @@
 #!/bin/bash
 
-USERINPUT=$(wofi --dmenu)
+# CHANGE THE PATH THAT IS CD'd TO TO THE PATH OF THE FOLDER THIS FILE IS SAVED IN
+cd $HOME/scripts/toggl_switcher
+
+USERINPUT=$(wofi --dmenu --hide-scroll --lines 1 --gtk-dark --width 300)
 python3 main.py "$USERINPUT"
